@@ -25,13 +25,13 @@ export PATH="$(npm config get prefix)/bin:$PATH"
 
 # 4. Create Skill Directories
 echo "📁 Creating skill directories..."
-mkdir -p ~/.kilocode/skills/uv-specialist \
-         ~/.kilocode/skills/frontend-specialist \
-         ~/.kilocode/skills/brainstorming
+mkdir -p ~/.kilocode/skills-code/uv-specialist \
+         ~/.kilocode/skills-code/frontend-specialist \
+         ~/.kilocode/skills-code/brainstorming
 
 # 5. Create UV Specialist Skill
 echo "📝 Writing uv-specialist/SKILLS.md..."
-cat << 'EOF' > ~/.kilocode/skills/uv-specialist/SKILLS.md
+cat << 'EOF' > ~/.kilocode/skills-code/uv-specialist/SKILLS.md
 ---
 name: uv-specialist
 description: Use Astral uv to create Python environments and manage dependencies for scripts and projects.
@@ -84,7 +84,7 @@ EOF
 
 # 6. Create Frontend Specialist Skill
 echo "📝 Writing frontend-specialist/SKILLS.md..."
-cat << 'EOF' > ~/.kilocode/skills/frontend-specialist/SKILLS.md
+cat << 'EOF' > ~/.kilocode/skills-code/frontend-specialist/SKILLS.md
 ---
 name: frontend-specialist
 description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.
@@ -131,7 +131,7 @@ EOF
 
 # 7. Create Brain Storming Skill
 echo "📝 Writing brainstorming/SKILLS.md..."
-cat << 'EOF' > ~/.kilocode/skills/brainstorming/SKILLS.md
+cat << 'EOF' > ~/.kilocode/skills-code/brainstorming/SKILLS.md
 ---
 name: brainstorming
 description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
@@ -139,7 +139,7 @@ description: "You MUST use this before any creative work - creating features, bu
 
 # Brainstorming Ideas Into Designs
 
-## Overview
+## Overviewcd ~/.
 
 Help turn ideas into fully formed designs and specs through natural collaborative dialogue.
 
